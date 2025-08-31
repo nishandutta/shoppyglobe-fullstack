@@ -1,0 +1,78 @@
+/* Page background */
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+/* Login box */
+.auth-box {
+  max-width: 420px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 12px;
+  background: rgba(200, 200, 200, 0.3); /* translucent light gray */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  backdrop-filter: blur(8px);
+}
+
+/* Title */
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+/* Form group for consistent spacing */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px; /* consistent gap between fields */
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px; /* gap between label and input */
+  color: #0077cc;     /* blue label text */
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #222;              /* dark grey/black input text */
+  background: #fff;
+}
+
+/* Button styled blue */
+.auth-box button {
+  width: 100%;
+  background: #0077cc;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.auth-box button:hover {
+  background: #005fa3;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Link text */
+.auth-box p {
+  text-align: center;
+  margin-top: 16px;
+}
